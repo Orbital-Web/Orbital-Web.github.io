@@ -2,9 +2,12 @@ body {
   background-color: black;
 }
 div.Header {
-  color: #9400D3;
+  color: #9370DB;
 }
 div.UTlink {
+  color: #ffffff;
+}
+a {
   color: #ffffff;
 }
 div.dHead {
