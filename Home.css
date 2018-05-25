@@ -2,21 +2,27 @@ body {
   background-color: black;
 }
 div.Header {
+  text-align: center;
   color: #9370DB;
 }
 div.UTlink {
+  text-align: center;
   color: #ffffff;
 }
 a {
+  text-align: center;
+  text-decoration: none;
   color: #ffffff;
 }
 div.dHead {
-  color: #ffffff;
+  text-align: center;
+  color: #e9fbfa;
 }
 div.dLink {
   color: #ffffff;
 }
 div.tHead {
+  text-align: center;
   color: #ffffff;
 }
 div.tLink {
