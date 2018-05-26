@@ -64,7 +64,7 @@ div.tLink {
   border-bottom: 1px solid #ddd;
 }
 
-#dlinks tr.header, tlinks tr.header {
+#dlinks tr.header, #tlinks tr.header {
   background-color: #999;
 }
 
