@@ -64,6 +64,10 @@ div.tLink {
   border-bottom: 1px solid #ddd;
 }
 
-#dlinks tr.header, #dlinks tr:hover, tlinks tr.header, #tlinks tr:hover {
+#dlinks tr.header, tlinks tr.header {
   background-color: #999;
+}
+
+#dlinks tr:hover, #tlinks tr:hover {
+  background-color: #222;
 }
