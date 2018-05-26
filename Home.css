@@ -52,27 +52,22 @@ div.tLink {
   border: 1px solid #ddd;
   margin-bottom: 12px;
 }
-
 #dlinks, #tlinks {
   border-collapse: collapse;
   width: 100%;
   border: 1px solid #ddd;
   font-size: 18px;
 }
-
 #dlinks th, #dlinks td, #tlinks th, #tlinks td {
   text-align: left;
   padding: 12px;
 }
-
 #dlinks tr, #tlinks tr {
   border-bottom: 1px solid #ddd;
 }
-
 #dlinks tr.header, #tlinks tr.header {
   background-color: #999;
 }
-
 #dlinks td:hover, #tlinks td:hover {
   background-color: #222;
 }
