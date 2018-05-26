@@ -25,7 +25,7 @@ div.dHead {
   color: #deaeea;
 }
 div.dLink {
-  border: 1px solid #ffffff;
+  /*border: 1px solid #ffffff;*/
   color: #ffffff;
 }
 
@@ -36,7 +36,39 @@ div.tHead {
   color: #deaeea;
 }
 div.tLink {
-  border: 1px solid #ffffff;
+  /*border: 1px solid #ffffff;*/
   color: #ffffff;
 }
 
+
+
+#searchbar {
+  background-image: url('searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#links {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 18px;
+}
+
+#links th, #links td {
+  text-align: left;
+  padding: 12px;
+}
+
+#links tr {
+  border-bottom: 1px solid #ddd;
+}
+
+#links tr.header, #links tr:hover {
+  background-color: #999;
+}
