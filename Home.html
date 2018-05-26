@@ -24,12 +24,26 @@
       <h4>Downloads</h4>
     </div>
     <div class="dLink">
-      <pre>Rainmeter: Dekstop Customizer
+      <!-- <pre>Rainmeter: Dekstop Customizer
       <a href="rainmeter.net/" target="_blank">Visit</a></pre>
       
       <pre>Github: Create and Share Repsoitories, Create a Website for Free
-      <a href="github.com/" target="_blank">Visit</a></pre>
-      
+      <a href="github.com/" target="_blank">Visit</a></pre> -->
+      <input type="text" id="searchbar" onkeyup="linkFunc()" placeholder="Search for Links. . ." title="Type in a Link">
+
+      <table id="links">
+        <tr class="header">
+         <th style="width:60%;">Links</th>
+       </tr>
+        <tr><td><a href="rainmeter.net/" target="_blank">Rainmeter: Dekstop Customizer</a></td></tr>
+       <tr><td><a href="github.com/" target="_blank">Github: Create and Share Repsoitories, Create a Website for Free</a></td></tr>
+       <tr><td></td></tr>
+       <tr><td></td></tr>
+       <tr><td></td></tr>
+       <tr><td></td></tr>
+       <tr><td></td></tr>
+       <tr><td></td></tr>
+      </table>
     </div>
     
     
@@ -40,6 +54,27 @@
       <p></p>
     </div>
     
+    
+    
+  <script>
+  function linkFunc() {
+  var input, filter, table, tr, td, i;
+  input = document.getElementById("searchbar");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("links");
+  tr = table.getElementsByTagName("tr");
+    for (i = 0; i < tr.length; i++) {
+      td = tr[i].getElementsByTagName("td")[0];
+      if (td) {
+        if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
+          tr[i].style.display = "";
+        } else {
+          tr[i].style.display = "none";
+        }
+      }       
+    }
+  }
+  </script>
   </body>
   
 </html>
