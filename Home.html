@@ -24,8 +24,8 @@
       <h4>Downloads</h4>
     </div>
     <div class="dLink">
-      <input type="text" id="searchbar" onkeyup="linkFunc()" placeholder="Search for Links. . ." title="Type in a Link">
-      <table id="links">
+      <input type="text" id="dsearchbar" onkeyup="dlinkFunc()" placeholder="Search for Links. . ." title="Type in a Link">
+      <table id="dlinks">
         <tr class="header">
          <th style="width:60%;">Links</th>
        </tr>
@@ -42,8 +42,8 @@
       <h4>Tutorials</h4>
     </div>
     <div class="tLink">
-      <input type="text" id="searchbar" onkeyup="linkFunc()" placeholder="Search for Links. . ." title="Type in a Link">
-      <table id="links">
+      <input type="text" id="tsearchbar" onkeyup="tlinkFunc()" placeholder="Search for Links. . ." title="Type in a Link">
+      <table id="dlinks">
         <tr class="header">
          <th style="width:60%;">Links</th>
        </tr>
@@ -58,11 +58,28 @@
     
     
   <script>
-  function linkFunc() {
+  function dlinkFunc() {
   var input, filter, table, tr, td, i;
-  input = document.getElementById("searchbar");
+  input = document.getElementById("dsearchbar");
   filter = input.value.toUpperCase();
-  table = document.getElementById("links");
+  table = document.getElementById("dlinks");
+  tr = table.getElementsByTagName("tr");
+    for (i = 0; i < tr.length; i++) {
+      td = tr[i].getElementsByTagName("td")[0];
+      if (td) {
+        if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
+          tr[i].style.display = "";
+        } else {
+          tr[i].style.display = "none";
+        }
+      }       
+    }
+  }
+  function tlinkFunc() {
+  var input, filter, table, tr, td, i;
+  input = document.getElementById("tsearchbar");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("tlinks");
   tr = table.getElementsByTagName("tr");
     for (i = 0; i < tr.length; i++) {
       td = tr[i].getElementsByTagName("td")[0];
