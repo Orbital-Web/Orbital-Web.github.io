@@ -25,6 +25,7 @@ div.dHead {
   color: #deaeea;
 }
 div.dLink {
+  border: 1px solid #ffffff;
   color: #ffffff;
 }
 div.dLink1 {
@@ -41,6 +42,7 @@ div.tHead {
   color: #deaeea;
 }
 div.tLink {
+  border: 1px solid #ffffff;
   color: #ffffff;
 }
 
