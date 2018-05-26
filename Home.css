@@ -68,6 +68,6 @@ div.tLink {
   background-color: #999;
 }
 
-#dlinks tr:hover, #tlinks tr:hover {
+#dlinks td:hover, #tlinks td:hover {
   background-color: #222;
 }
