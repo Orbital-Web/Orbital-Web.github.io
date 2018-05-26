@@ -42,33 +42,34 @@ div.tLink {
 
 
 
-#searchbar {
+#dsearchbar, #tsearchbar {
   background-image: url('searchicon.png');
   background-position: 10px 10px;
   background-repeat: no-repeat;
-  width: 100%;
+  width: 16px;
+  height: 16px;
   font-size: 16px;
   padding: 12px 20px 12px 40px;
   border: 1px solid #ddd;
   margin-bottom: 12px;
 }
 
-#links {
+#dlinks, #tlinks {
   border-collapse: collapse;
   width: 100%;
   border: 1px solid #ddd;
   font-size: 18px;
 }
 
-#links th, #links td {
+#dlinks th, #dlinks td, #tlinks th, #tlinks td {
   text-align: left;
   padding: 12px;
 }
 
-#links tr {
+#dlinks tr, #tlinks tr {
   border-bottom: 1px solid #ddd;
 }
 
-#links tr.header, #links tr:hover {
+#dlinks tr.header, #dlinks tr:hover, tlinks tr.header, #tlinks tr:hover {
   background-color: #999;
 }
