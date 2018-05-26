@@ -1,6 +1,9 @@
 body {
   background-color: black;
 }
+
+
+
 div.Header {
   text-align: center;
   color: #9370DB;
@@ -14,6 +17,9 @@ a {
   text-decoration: none;
   color: #afa3f5;
 }
+
+
+
 div.dHead {
   text-align: center;
   color: #deaeea;
@@ -21,6 +27,14 @@ div.dHead {
 div.dLink {
   color: #ffffff;
 }
+div.dLink1 {
+}
+div.dLink2 {
+  float: right;
+}
+
+
+
 div.tHead {
   text-align: center;
   color: #deaeea;
@@ -28,3 +42,4 @@ div.tHead {
 div.tLink {
   color: #ffffff;
 }
+
