@@ -1,2 +1,2 @@
 # Orbital-Web.github.io
-[a relative link](Home.html)
+[a link](Orbital-Web.github.io/Home.html)
