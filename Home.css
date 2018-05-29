@@ -36,6 +36,7 @@ div.dHead {
 }
 div.dLink {
   color: #ffffff;
+  overflow: scroll;
 }
 
 
@@ -46,6 +47,7 @@ div.tHead {
 }
 div.tLink {
   color: #ffffff;
+  overflow: scroll;
 }
 
 
