@@ -9,6 +9,7 @@ body {
 
 
 div.Content {
+  margin: auto;
   background: #ffffff;
   width: 85%;
 }
