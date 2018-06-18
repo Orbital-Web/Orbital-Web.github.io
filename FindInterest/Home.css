@@ -10,6 +10,7 @@ body {
 
 div.Content {
   margin: auto;
+  padding: 8px;
   border: 2px solid #CDCFD2;
   background: #272B36;
   width: 90%;
