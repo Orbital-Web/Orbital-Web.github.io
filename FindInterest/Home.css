@@ -8,6 +8,11 @@ body {
 
 
 
+div.Content {
+  background: #ffffff;
+  width: 85%;
+}
+
 div.Header {
   text-align: center;
   color: #000000;
