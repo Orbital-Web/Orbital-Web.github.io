@@ -1,5 +1,5 @@
 body {
-  background-color: #121254;  /*dark navy*/
+  background-color: #0e0e3f;  /*dark navy*/
 }
 
 
@@ -11,7 +11,7 @@ body {
 div.Content {
   margin: auto;
   background: #ffffff;
-  width: 85%;
+  width: 90%;
 }
 
 div.Header {
